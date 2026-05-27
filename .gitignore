@@ -1,0 +1,53 @@
+# =============================================================================
+# .gitignore — Vehicle Re-Identification
+# =============================================================================
+
+# Training codebase (university copyright — not for redistribution)
+main.py
+*.py
+
+# Dataset (not for redistribution per dataset licence)
+*.jpg
+*.jpeg
+*.png
+*.bmp
+VeRi/
+VeRi-776/
+
+# Allow images directory
+!images/
+!images/*.png
+
+# Trained model checkpoints (large files)
+*.pth
+*.pt
+*.pkl
+*.h5
+logs/
+
+# Training logs (contain submission watermarks)
+*.txt
+log_*/
+
+# Student report and assignment brief (not for public distribution)
+*.pdf
+*.docx
+
+# Notebook files
+*.ipynb
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Virtual environments
+venv/
+env/
+.env
